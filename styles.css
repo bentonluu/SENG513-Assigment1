@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#header img {
+    width: 140px;
+    height: 140px;
+}
+
+#headerContent {
+    background-color: #CE093F;
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#nav li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#banner {
+    background-color: #A1A1A4;
+}
+
+#banner h1 {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer {
+    background-color: #CE093F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footer span {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/* Global elements CSS */
+h2 {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 3px solid #CE093F;
+    padding: 10px;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid black;
+}
+
+/* Home page CSS */
+#recordContent {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#recordContent th {
+    background-color: #CE093F;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    width: 65px;
+}
+
+#recordContent td {
+    font-size: 30px;
+    padding: 5px;
+}
+
+#recordContent td:last-child {
+    border-left: 2px solid black;
+}
+
+#gameResults .columnGap {
+    width: 10%;
+}
+
+#gameResults .middleColumn {
+    width: 40%;
+}
+
+#gameResults img {
+    width: 100px;
+    padding: 10px;
+}
+
+#gameResults .logoHeight {
+    height: 100px;
+    width: auto;
+}
+
+#gameResults table {
+    border: none;
+    border-collapse:separate;
+    border-spacing: 0 5px;
+    font-size: 19px;
+}
+
+#gameResults th {
+    background-color: #CE093F;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    font-weight: bold;
+    color: white;
+}
+
+#gameResults th:first-child {
+    border-left: 2px solid black;
+}
+
+#gameResults th:last-child {
+    border-right: 2px solid black;
+}
+
+#gameResults td {
+    height: 130px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#gameResults td:last-child {
+    border-right: 2px solid black;
+}
+
+#gameResults tr:hover {
+    background: #686868;
+    color: white;
+}
+
+.win {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.lose {
+    color: orangered;
+    font-weight: bold;
+}
+
+#infoContent {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#infoContent .headingCell {
+    background-color: #686868;
+    font-weight: bold;
+    border-right: 2px solid black;
+    color: white;
+}
+
+#infoContent img {
+    height: 50px;
+}
+
+#infoContent td, th {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#infoContent tr:hover {
+    background: white;
+    color: black;
+}
+
+/* Roster page CSS */
+#starterContent, #benchContent, #coachContent {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#starterContent img {
+    height: 150px;
+    padding-bottom: 5px;
+}
+
+#starterContent ul {
+    list-style-type: none;
+    display: table;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#starterContent li {
+    display: inline-block;
+    border: 2px solid #A1A1A4;
+    padding: 5px;
+    margin: 5px;
+}
+
+#starterContent li:hover {
+    background: #686868;
+    color: white;
+}
+
+#benchContent {
+    padding-bottom: 40px;
+}
+
+#benchContent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#benchContent li {
+    border: 2px solid #A1A1A4;
+    padding: 10px;
+    margin: 3px;
+    width: 20%;
+    display: inline-block;
+}
+
+#benchContent li:hover {
+    background: #686868;
+    color: white;
+}
+
+#coachName {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#coachContent span {
+    border: 2px solid #A1A1A4;
+    padding: 10px;
+}
+
+#coachContent span:hover {
+    background: #686868;
+    color: white;
+}
+
+/* Jersey Page CSS */
+#jerseyContent {
+    text-align: center;
+}
+
+#jerseyContent img {
+    width: 380px;
+    padding: 10px;
+    border: 3px solid transparent;
+}
+
+#jerseyContent img:hover {
+    border: 3px solid #CE093F;
+    padding: 10px;
+}
+
+/* Stats page CSS */
+#statsContent {
+    text-align: center;
+}
+
+#statsContent img {
+    height: 150px;
+    padding: 0;
+}
+
+#statsContent td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#statsContent th {
+    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    background-color: #CE093F;
+    font-weight: bold;
+    color: white;
+}
+
+#statsContent tr:hover {
+    background: #686868;
+    color: white;
+}
+
+/* Column layouts CSS */
+.threeColumn {
+    float: left;
+    width: 33.3%;
+}
+
+.columnGap {
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.middleColumn {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
